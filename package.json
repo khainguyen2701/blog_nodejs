@@ -1,0 +1,38 @@
+{
+  "name": "blog_nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --inspect src/index.js",
+    "watch": "node-sass --watch src/resources/scss/ --output src/public/css/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khainguyen2701/blog_nodejs.git"
+  },
+  "keywords": [
+    "blog",
+    "blog",
+    "node",
+    "js",
+    "demo",
+    "blog"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khainguyen2701/blog_nodejs/issues"
+  },
+  "homepage": "https://github.com/khainguyen2701/blog_nodejs#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.4",
+    "node-sass": "^6.0.1"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.13"
+  }
+}
