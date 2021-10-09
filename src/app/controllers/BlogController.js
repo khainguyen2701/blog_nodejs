@@ -1,6 +1,6 @@
-class BlogController{
-    index(req,res){
-        res.render('blog')
+class BlogController {
+    index(req, res) {
+        res.render('blog');
     }
 }
- module.exports = new BlogController
+module.exports = new BlogController();

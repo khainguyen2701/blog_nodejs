@@ -1,7 +1,7 @@
-const express = require('express')
-const router = express.Router()
+const express = require('express');
+const router = express.Router();
 
-const bodyController = require('../app/controllers/BodyController')
-router.use('/',bodyController.index)
+const bodyController = require('../app/controllers/BodyController');
+router.use('/', bodyController.index);
 
-module.exports = router
+module.exports = router;
